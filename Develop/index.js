@@ -3,6 +3,8 @@ const fs = require("fs");
 const util = require("util");
 const generateMarkdown = require ("./Develop/generateMarkdown");
 
+const writeFileAsync = util.promisify(fs.writeFile);
+
 // array of questions for user
 const questions = () => {
     return inquirer.prompt([
@@ -55,14 +57,21 @@ const questions = () => {
 ]);
 }
 
-
-// function to write README file
-function writeToFile(fileName, data) {
-}
-
 // function to initialize program
-function init() {
+const init = async () => {
+    console.log("Starting Prompts");
 
+    try {
+        const answers = await questions();
+
+        const markDown = generateMarkdown(answers);
+
+        await writeFileAsync("./NewReadMe/readMe.md", markDown);
+
+        console.log("Successfully wrote to readMe.md")
+    } catch (err) {
+        console.log(error)
+    }
 }
 
 // function call to initialize program
