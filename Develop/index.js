@@ -1,4 +1,7 @@
 const inquirer = require("inquirer");
+const fs = require("fs");
+const util = require("util");
+const generateMakrdown = require ("./Develop/generateMarkdown");
 
 // array of questions for user
 const questions = () => {
@@ -32,7 +35,12 @@ const questions = () => {
         type: "checkbox",
         names: "license",
         message: "Choose one of the following license.",
-        chioces: ["MIT", "Apache", "ISC", "GNU"]
+        chioces: [
+                    "MIT", 
+                    "Apache", 
+                    "ISC", 
+                    "GNU"
+                ]
     },
     {
         type: "input",
