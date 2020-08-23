@@ -1,8 +1,10 @@
 //function to generate markdown for README
+//License Verbiage Source for MIT, https://opensource.org/licenses/MIT
 function generateMarkdown(answers) {
     return `# ${answers.title}
     
-![badge](https://img.shields.io/badge/license-${answers.license}-green)
+![badge](https://img.shields.io/badge/license-${answers.license}-blue)
+
 ${answers.description}
 ---
 ## Table of Contents
@@ -39,9 +41,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ---
 ## Contributing
+
 ${answers.contributing}
 ---
 ## Tests
+
 ${answers.tests}
 ---
 ## Questions

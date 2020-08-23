@@ -1,17 +1,17 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const util = require("util");
-const generateMarkdown = require ("./Develop/utils/generateMarkdown");
+const generateMarkdown = require ("../Devlop/Utils/generateMarkdown");
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
 // array of questions for user
-const questions = () => {
+const promptUser = () => {
     return inquirer.prompt([
     {
         type: "input",
         name:"name",
-        message:"What is your full name?"
+        message:"What is your first and last name?"
     },
     {
         type:"input",
@@ -31,7 +31,7 @@ const questions = () => {
     {
         type: "input",
         name: "usage",
-        message: "What is your project used for?"
+        message: "What is the intent of your project?"
     },
     {
         type: "checkbox",
@@ -62,7 +62,7 @@ const init = async () => {
     console.log("Starting Prompts");
 
     try {
-        const answers = await questions();
+        const answers = await promptUser();
 
         const markDown = generateMarkdown(answers);
 
