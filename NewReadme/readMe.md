@@ -1,8 +1,8 @@
-# Flow Scores
+# Score Flows
     
-![badge](https://img.shields.io/badge/license--blue)
+![badge](https://img.shields.io/badge/license-MIT-blue)
 
-Flow Scores is a simple application that lets its users track their favorite teams scores, standings and news throughout the season
+Test
 ---
 ## Table of Contents
 [Installation](#installation)
@@ -13,14 +13,14 @@ Flow Scores is a simple application that lets its users track their favorite tea
 [Questions](#questions)
 ---
 ## Installation
-Github
+Test
 ---
 ## Usage
-School Project
+Test
 ---
 ## License
-
-Copyright (c) [2020] [Alex Skudrovskis]
+MIT
+Copyright (c) [2020] [Alex ]
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -47,6 +47,6 @@ undefined
 ---
 ## Questions
 For further questions, contact me at:
-GitHub: [No testing needed](https://github.com/No testing needed)
+GitHub: [Test](https://github.com/Test)
 Email: <alex.skudrovskis@gmail.com>
   
