@@ -36,7 +36,7 @@ const promptUser = () => {
     },
     {
         type: "checkbox",
-        names: "license",
+        name: "license",
         message: "Choose one of the following license.",
         choices: [
                     "MIT", 
