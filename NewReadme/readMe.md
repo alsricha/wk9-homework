@@ -1,8 +1,8 @@
-# Score Flows
+# Flow Scores
     
 ![badge](https://img.shields.io/badge/license-MIT-blue)
 
-Test
+test
 ---
 ## Table of Contents
 [Installation](#installation)
@@ -13,14 +13,14 @@ Test
 [Questions](#questions)
 ---
 ## Installation
-Test
+Github
 ---
 ## Usage
 Test
 ---
 ## License
 MIT
-Copyright (c) [2020] [Alex ]
+Copyright (c) [2020] [Alex]
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
