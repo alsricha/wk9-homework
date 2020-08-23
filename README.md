@@ -7,6 +7,6 @@
 
 Generate a README.md using answers to prompts and data from the environment, like package.json, .git config, etc. This generator can be run by command line if Generate is installed globally, or you can use this as a plugin or sub-generator in your own generator.
 
-
+Recording of assignment posted under the Homework Recording Folder.
 
 ![Small GIF (400x201)](https://user-images.githubusercontent.com/64692833/90990936-83dbd780-e562-11ea-8a4b-92859d2c3b82.gif)
