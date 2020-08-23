@@ -38,12 +38,12 @@ const promptUser = () => {
         type: "checkbox",
         names: "license",
         message: "Choose one of the following license.",
-        chioces: [
+        choices: [
                     "MIT", 
                     "Apache", 
                     "ISC", 
                     "GNU"
-                ]
+                ],
     },
     {
         type: "input",
@@ -67,7 +67,7 @@ const init = async () => {
 
         const markDown = generateMarkdown(answers);
 
-        await writeFileAsync("./NewReadMe/readMe.md", markDown);
+        await writeFileAsync("./NewReadme/readMe.md", markDown);
 
         console.log("Successfully wrote to readMe.md")
     } catch (err) {
